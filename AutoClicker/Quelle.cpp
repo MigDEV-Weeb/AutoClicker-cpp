@@ -11,7 +11,6 @@ int chooseClicks();
 void clearKeyboardBuffer();
 
 int cps;
-int test;
 
 int main() {
     chooseClicks();
