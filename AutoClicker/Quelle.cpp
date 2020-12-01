@@ -7,7 +7,7 @@
 using namespace std;
 
 
-int chooseClicks();
+void chooseClicks();
 void clearKeyboardBuffer();
 
 int cps;
@@ -52,7 +52,7 @@ int main() {
     }
 }
 
-int chooseClicks() {
+void chooseClicks() {
     clearKeyboardBuffer();
     system("CLS");
 
@@ -65,7 +65,6 @@ int chooseClicks() {
         cps = 1;
     }
     cps = 1000 / cps;
-    return 0;
 }
 
 void clearKeyboardBuffer()
